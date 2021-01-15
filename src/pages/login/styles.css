@@ -1,0 +1,121 @@
+.user-login {
+  min-width: 350px;
+  width: 30%;
+  margin: auto;
+  margin-top: 100px;
+  background-color: white;
+  padding: 60px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.body{
+  background-color: #BBBBBB;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-login__title {
+  font-size: 40px;
+  color: #fa2626;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.user-login__form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.user-login__form-control label {
+  margin-bottom: 1px;
+  color: #979797;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.user-login__form-control input {
+  border-radius: 10px;
+  border: 1px solid #BBBBBB;
+  height: 25px;
+  padding: 5px 10px;
+}
+
+.button-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.ui-button {
+  align-items: center;
+  width: 60%;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: inline;
+  padding: 15px 15px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: color 200ms;
+  transition-property: background-color, color;
+  border: 1;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  max-width: 60%;
+  max-height: 40px;
+}
+
+.ui-button--bordered-green {
+  padding: 7px 10px;
+  border-color: #fa2626;
+  color: #fa2626;
+  border: 2px solid;
+}
+
+.ui-button--bordered-green:hover {
+  background-color: #fa2626;
+  color: #fff;
+}
+
+
+.ui-button--contained-green {
+  background-color: #fa2626;
+  color: #fff;
+}
+
+.ui-button--contained-green:hover {
+  background-color: #9c0909;
+  border-color: #9c0909;
+  color: #fff;
+}
+
+.Login-Error {
+  color: #ff8080;
+}
